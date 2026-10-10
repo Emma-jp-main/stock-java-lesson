@@ -17,8 +17,8 @@ public class Main {
                     running = false;
                 }
                 case null, default ->
-//                        IO.println("\"" + userInput + "\" に対応するメニューは存在しません。");
-                        System.out.printf("\"%s\" に対応するメニューは存在しません。%n", userInput);
+//                        System.out.printf("\"%s\" に対応するメニューは存在しません。%n", userInput);
+                        IO.println("\"%s\" に対応するメニューは存在しません。".formatted(userInput));
             }
         }
     }
